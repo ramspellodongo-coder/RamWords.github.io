@@ -1,0 +1,1267 @@
+import React, { useState } from 'react';
+import { Mail, FileText, TrendingUp, ChevronDown, ChevronUp, ExternalLink, Award, Target, Zap, BookOpen, Users, DollarSign } from 'lucide-react';
+
+const Portfolio = () => {
+  const [expandedProject, setExpandedProject] = useState(null);
+  const [activeTab, setActiveTab] = useState('overview');
+
+  const projects = [
+    {
+      id: 1,
+      title: "Elite Listing Mastery - Premium Course Sales Page",
+      type: "Long-Form Sales Page",
+      icon: <FileText className="w-5 h-5" />,
+      client: "Spec Project",
+      description: "High-converting sales page for a $2,997 flagship program teaching realtors the psychology and systems behind winning premium listings consistently.",
+      whatIMadeStrategic: [
+        "Led with emotional pain point (losing listings to discount agents) before presenting logical solution",
+        "Used the 'before-after-bridge' framework to show transformation clearly",
+        "Positioned price as investment with ROI calculator (1 extra listing = 3X return)",
+        "Built credibility through specificity: exact numbers, timelines, and student results",
+        "Structured guarantee to remove risk while qualifying serious buyers"
+      ],
+      copyTechniques: [
+        "Headline formula: Specific outcome + time frame + objection removal",
+        "Sub-headline addresses skepticism directly to disarm resistance early",
+        "Social proof ladder: started with big number (847 students), then specific case studies, then quick wins",
+        "Module descriptions focus on outcomes (what you'll be able to DO) not curriculum (what you'll learn)",
+        "False close technique: addressed price objection midway through page before final offer"
+      ],
+      whyThisWorks: "Real estate coaches need to sell transformation, not information. This page speaks directly to the income frustration realtors feel, quantifies the cost of staying stuck, and makes the path to $200K+ feel inevitable rather than aspirational.",
+      metricsDesignedFor: "2.5-4% cold traffic conversion, 6-9% warm traffic conversion, $600K+ in revenue at 200 sales",
+      sampleCopy: `HEADLINE:
+"How 847 Realtors Broke Through to 30+ Listings Per Year—Without Paid Leads, Price Wars, or 70-Hour Weeks"
+
+SUB-HEADLINE:  
+The psychology-based listing system that positions you as the premium choice in your market (so sellers choose you even when you're not the cheapest)
+
+---
+
+[OPENING SECTION - EMPATHY & PAIN]
+
+If you're reading this, you're probably tired of losing listings to agents who charge less.
+
+You show up prepared. You know your market. You deliver results.
+
+But when the seller says "we'll let you know," you already know what happened.
+
+They went with the 4% agent. Again.
+
+And you're left wondering: "How do I compete without dropping my commission?"
+
+Here's the truth most agents never figure out:
+
+You're not losing on price. You're losing on POSITIONING.
+
+The agents who consistently win premium listings aren't cheaper. They're not working harder. They're not more experienced.
+
+They simply know how to position themselves so that price becomes irrelevant.
+
+And over the next 90 days, I'm going to show you exactly how to do the same.
+
+[THE COST OF STAYING STUCK]
+
+Right now, being stuck in the "price wars" is costing you approximately $87,000 per year.
+
+Here's the math:
+
+Average realtor closing 12 deals/year at $7K average commission = $84,000
+Top-tier realtor closing 30 deals/year at $9K average commission = $270,000
+
+That's a $186,000 gap.
+
+But let's be conservative. Let's say you just want to get to 20 deals at $8K average.
+
+That's $160,000. A $76,000 increase from where you are now.
+
+Every month you wait is $6,300 you're leaving on the table.
+
+Not because you're not good enough.
+But because you don't have the SYSTEM that premium agents use.
+
+[THE SOLUTION]
+
+Introducing: Elite Listing Mastery
+
+The 12-week implementation program that teaches you the psychology, positioning, and proven systems behind winning 70%+ of your listing presentations—at full commission.
+
+This isn't a "tips and tricks" course.
+
+This is a complete operating system for how premium agents think, position, and present themselves to sellers.
+
+HERE'S WHAT YOU GET:
+
+MODULE 1: The Premium Positioning Foundation (Week 1-2)
+Why sellers choose expensive agents over cheap ones—and how to trigger those exact psychological buying patterns in your market. Includes: the "Category of One" framework that eliminates 90% of competition before you even meet.
+
+MODULE 2: The Pre-Listing Advantage (Week 3-4)
+How to win the listing BEFORE the appointment through strategic pre-framing. You'll get: the 5-page "Authority Package" template, pre-appointment call scripts, and positioning sequences that make you the automatic favorite.
+
+MODULE 3: The Psychology-Based Presentation (Week 5-7)
+My complete listing presentation system with built-in psychological triggers. Includes: the "Trust Triangle" opening (5 minutes that eliminates price objections), the "Premium Justification Stack," and the "3-Path Close" that makes signing feel inevitable.
+
+MODULE 4: The Objection Neutralization System (Week 8-9)
+Word-for-word responses to the 12 most common objections including "your commission is too high," "we want to interview other agents," and "we're thinking about FSBO." Each script is designed to reframe rather than defend.
+
+MODULE 5: The Follow-Up That Converts (Week 10-11)
+What to do when they say "we need to think about it" (hint: you failed earlier, here's how to recover). Includes: the 7-day follow-up sequence that converts 40% of "maybes" into signed agreements.
+
+MODULE 6: The Premium Agent Ecosystem (Week 12)
+How to build a referral system that feeds you premium listings consistently. The exact positioning that makes past clients refer you to their affluent friends instead of discount agents.
+
+[PROOF - CASE STUDIES]
+
+"I was averaging 8 listings per year at 5.5% commission. After implementing the Pre-Listing Advantage and Psychology-Based Presentation, I closed 19 listings in 12 months at 6%. My income went from $78K to $143K."
+— Jennifer Martinez, Phoenix, AZ
+
+"The objection scripts alone were worth 10X the investment. I stopped losing listings to discount agents completely. My close rate went from 35% to 71%."  
+— David Park, Austin, TX
+
+"I thought I needed more leads. Turns out I just needed better positioning. Now I'm the agent sellers CALL instead of me chasing them."
+— Sarah Williams, Denver, CO
+
+[WHAT MAKES THIS DIFFERENT]
+
+Most real estate training teaches WHAT to say.
+
+This program teaches WHY it works—so you can adapt it to any situation.
+
+You'll understand:
+→ The 6 psychological triggers that make sellers trust you instantly
+→ Why premium pricing actually INCREASES conversion (when positioned correctly)  
+→ How to use "strategic vulnerability" to build rapport faster than competitors
+→ The neuroscience behind why certain closes work and others don't
+
+This is copywriting psychology applied to real estate.
+
+PLUS YOU GET:
+✓ 12 weekly group coaching calls (90 minutes each)
+✓ Private member community (400+ active premium agents)
+✓ Complete presentation template library (Google Slides + Canva)
+✓ Word-for-word script vault (200+ pages)
+✓ Monthly "presentation teardown" sessions where I critique your actual appointments
+✓ Lifetime access to all materials + future updates
+✓ Emergency "deal rescue" hotline for high-stakes listings
+
+Investment: $2,997
+(3-payment option: $1,097/month)
+
+[GUARANTEE]
+
+The "3 Extra Listings or Full Refund" Promise:
+
+Implement the system for 90 days. If you don't close at least 3 more listings than you would have without it, I'll refund 100% of your investment.
+
+I can make this guarantee because the system works when you work it.
+
+[URGENCY]
+
+We limit each cohort to 75 agents to maintain coaching quality.
+
+Current cohort: 52 enrolled, 23 spots remaining
+Next cohort: 16 weeks away (that's 4 months of lost opportunity)
+
+EARLY ACTION BONUSES (disappear in 72 hours):
+→ Bonus #1: The "Luxury Listing" add-on module ($497 value)
+→ Bonus #2: 30-minute private strategy call with me ($350 value)  
+→ Bonus #3: "Presentation Builder" software (1-year license, $297 value)
+
+Total bonus value: $1,144
+
+[FINAL CTA]
+
+Ready to become the premium choice in your market?
+
+[BUTTON: "Enroll in Elite Listing Mastery"]
+
+You'll be taken to a secure enrollment page. After payment, you'll receive immediate access to the member area and Module 1.
+
+[ALTERNATIVE CTA]
+Not quite ready? Schedule a free 20-minute clarity call where I'll answer your specific questions and help you decide if this is right for you.
+
+[BUTTON: "Book Your Clarity Call"]
+
+To your premium positioning,
+
+[Signature]
+[Coach Name]
+Creator, Elite Listing Mastery
+Former Top 2% Agent, Keller Williams Pacific Northwest
+
+P.S. Remember the math: every month you stay stuck costs you $6,300 in lost income. That's $18,900 by the time the next cohort opens. The question isn't whether you can afford this program—it's whether you can afford to wait.`
+    },
+    {
+      id: 2,
+      title: "5-Day \"Listing Launch\" Email Sequence",
+      type: "Launch Email Series",
+      icon: <Mail className="w-5 h-5" />,
+      client: "Spec Project",
+      description: "Short-cycle launch sequence for a $497 mini-course on listing presentations. Designed for a warm audience who attended a free training but didn't buy the high-ticket offer.",
+      whatIMadeStrategic: [
+        "Started with story (not pitch) to re-engage audience emotionally",
+        "Each email had ONE job: move reader to next emotional state in buying journey",
+        "Used soap opera sequencing to create open loops that demand next email be opened",
+        "Testimonials placed strategically at doubt points (email 3-4)",
+        "Final email focused on regret avoidance not FOMO"
+      ],
+      copyTechniques: [
+        "Subject lines optimized for curiosity + benefit (not clickbait)",
+        "P.S. sections plant seeds for next email without explicit cliffhangers",
+        "Social proof includes specific metrics (not vague 'it works' statements)",
+        "Objections handled preemptively in email body before they arise",
+        "Calls-to-action escalate in directness (soft ask → medium → hard close)"
+      ],
+      whyThisWorks: "This audience already knows the coach and problem. They need permission to buy + removal of specific objections. The sequence addresses 'is this worth it,' 'will it work for me,' and 'what if I wait' systematically across 5 days.",
+      metricsDesignedFor: "30-40% open rates, 8-12% click rates, 5-8% conversion to $497 purchase",
+      sampleCopy: `EMAIL 1: "The listing I lost in 9 minutes" (Day 1, 9am)
+
+SUBJECT: I lost a $52K listing in 9 minutes  
+PREVIEW: The mistake that cost me everything...
+
+[First Name],
+
+I still remember the address: 4782 Oakmont Drive.
+
+Beautiful home. Motivated seller. Perfect listing.
+
+I showed up with my presentation printed and bound. My comps were perfect. I had rehearsed.
+
+9 minutes into my pitch, the seller interrupts:
+
+"Thanks for coming by. We'll let you know."
+
+I knew what that meant.
+
+I walked to my car and sat there for 5 minutes thinking: "What just happened?"
+
+That listing went to another agent. A 5% agent (I was at 6%).
+
+The commission would've been $52,000.
+
+But here's the thing I didn't understand then:
+
+I didn't lose on price.
+
+I lost because I was BORING.
+
+I sounded like every other agent. Same comps. Same marketing pitch. Same "I'll work hard for you" speech.
+
+The seller tuned out at minute 4. I just didn't notice.
+
+Tomorrow I'm going to tell you what I SHOULD have done—and what I do NOW that wins me 7 out of 10 listings.
+
+But today, I just want to ask:
+
+How many listings have you lost because you were "the same as everyone else"?
+
+Think about it.
+
+Talk tomorrow,
+[Coach Name]
+
+P.S. On Friday I'm opening enrollment for something that specifically solves this problem. More details coming Thursday.
+
+---
+
+EMAIL 2: "The 7-minute framework" (Day 2, 10am)
+
+SUBJECT: What I do in the first 7 minutes now
+PREVIEW: (Everything changed after I learned this)
+
+Hey [First Name],
+
+Yesterday I told you about the $52K listing I lost because I was boring.
+
+Today I want to show you what I learned from that disaster.
+
+After I lost that listing, I became obsessed with a question:
+
+"Why do sellers choose one agent over another when everyone has similar credentials?"
+
+I studied psychology books. I interviewed sellers who recently chose agents. I analyzed what top producers were doing differently.
+
+And I discovered something:
+
+Listings aren't won during the presentation.
+
+They're won in the FIRST 7 MINUTES.
+
+Here's what I mean:
+
+Most agents show up and immediately start talking about their marketing plan, their experience, their credentials.
+
+BORING.
+
+The seller's brain checks out. They smile politely. But they've already decided you're "generic agent #3."
+
+What should you do instead?
+
+You need to DISRUPT THE PATTERN.
+
+Here's the framework I use now (I call it "The Hook + Human"):
+
+MINUTE 1-3: The Hook (Pattern Interrupt)
+Instead of launching into my pitch, I start with a story or a provocative question that forces them to actually THINK.
+
+Example: "Before we start, can I ask: what's the #1 thing you're worried about with this sale?"
+
+This does three things:
+1. Shows you actually care about THEM (not just your commission)
+2. Gives you intel on their hot buttons
+3. Breaks the "agent script" pattern they're expecting
+
+MINUTE 4-7: The Human (Authenticity)
+I share a brief personal story that builds trust and shows I'm a real person, not a sales robot.
+
+Example: "I get it. When I sold my first home, I chose the wrong agent and it cost me $18K. That's why I'm obsessed with making sure my sellers get top dollar."
+
+Now I'm not just "another agent." I'm someone who GETS them.
+
+Only AFTER this do I start my actual presentation.
+
+And by then? They're already leaning toward me.
+
+Tomorrow I'll show you the #1 objection this framework triggers—and exactly how to handle it.
+
+Stay tuned,
+[Coach Name]
+
+P.S. This framework is just ONE of 17 presentation strategies I cover in the new mini-course I'm launching Friday. If you're tired of losing listings, you'll want to see this.
+
+---
+
+EMAIL 3: "'Your commission is too high'" (Day 3, 9am)
+
+SUBJECT: "Your commission is too high"  
+PREVIEW: Here's what I say now (word-for-word)
+
+[First Name],
+
+If you've been using the "Hook + Human" opening I shared yesterday, you're probably seeing better engagement from sellers.
+
+But you'll still hear this:
+
+"Your commission seems high."
+
+Most agents panic. They start defending. They start justifying their marketing spend and their "value."
+
+Bad move.
+
+Here's what I say instead:
+
+"I appreciate you bringing that up directly. Can I ask—what's more important to you: saving 1% on commission, or netting $25,000 more on your sale price?"
+
+[Pause. Let them answer.]
+
+"Because here's what I've seen over and over: Discount agents aren't discount because they're generous. They're discount because they CAN'T command full price. And sellers who choose them almost always leave money on the table."
+
+Then I pull up my phone and show them a simple comparison:
+
+Home A: Listed with 4% agent, sold for $387K after 71 days  
+Home B (similar): Listed with me at 6%, sold for $421K in 22 days
+
+"That seller saved $7,800 in commission but lost $34,000 in sale price. Net loss: $26,200. Would you make that trade?"
+
+[Pause.]
+
+"I didn't think so."
+
+End of objection.
+
+Here's why this works:
+
+1. You didn't defend—you REFRAMED
+2. You used specific numbers (not vague claims)
+3. You made choosing cheap feel RISKY instead of smart
+
+Try this on your next appointment and watch what happens.
+
+Tomorrow: The sneaky way sellers test you (and how to pass every time).
+
+[Coach Name]
+
+P.S. This exact script (plus 14 others for different objections) is included in "Listing Presentation Mastery" launching tomorrow. Early birds get $100 off + 3 bonuses. Watch your inbox.
+
+---
+
+EMAIL 4: "Launching: Listing Presentation Mastery" (Day 4, 9am)
+
+SUBJECT: [NEW] Listing Presentation Mastery (enrollment opens today)
+PREVIEW: Everything you need to win 7/10 listings at full commission
+
+Hey [First Name],
+
+For the past 3 days I've been sharing frameworks and scripts that transformed how I win listings.
+
+Today, I'm making all of it available in one place.
+
+Introducing: Listing Presentation Mastery
+
+A focused mini-course (2.5 hours of training) that gives you the complete system for winning more listings at full commission.
+
+HERE'S WHAT YOU GET:
+
+Module 1: The Psychology of Seller Decision-Making (22 min)
+Why sellers really choose one agent over another (hint: it's not marketing or credentials). You'll learn the 4 psychological triggers that control every listing decision.
+
+Module 2: The "Hook + Human" Framework (31 min)  
+The exact 7-minute opening I use to break the "generic agent" pattern and build instant trust. Includes: 12 different "hook" examples you can customize for your personality.
+
+Module 3: The Premium Justification Stack (38 min)
+How to position your commission as the smart choice (not the expensive one). You'll get: the comparison framework, the "net proceeds" calculator, and 5 case studies you can show sellers.
+
+Module 4: Objection Neutralization Scripts (44 min)
+Word-for-word responses to 15 common objections including commission pushback, FSBO considerations, and "we're interviewing others." Each script is designed to reframe, not defend.
+
+Module 5: The Close That Doesn't Feel Like a Close (27 min)
+My 3-option close that makes signing feel like the natural next step (not a high-pressure decision). Plus: what to do when they say "we need to think about it."
+
+BONUS MATERIALS:
+→ Complete presentation slide deck template (Google Slides + Canva)
+→ 47-page script library (printable PDF)
+→ "Pre-listing package" template (send 24 hours before appointment)
+→ Follow-up email sequence for "thinking about it" prospects
+→ Private access to monthly Q&A calls for course members
+
+Regular price: $497
+EARLY BIRD (next 48 hours): $397
+
+Plus if you enroll in the next 48 hours, you get:
+🎁 Bonus #1: "Luxury Listing Mastery" module ($97 value)
+🎁 Bonus #2: 15-minute presentation review with me ($150 value)
+🎁 Bonus #3: "Seller objection cheat sheet" laminated card ($27 value)
+
+[BUTTON: Enroll for $397 (Save $100)]
+
+GUARANTEE: Complete the course, use it on 3 listing appointments, and if you don't win at least ONE listing you wouldn't have otherwise, I'll refund you + send you $50 for wasting your time.
+
+Here's what past students are saying:
+
+"I closed 2 listings in my first week after finishing the course. The psychology module alone was worth 10X what I paid."
+— Marcus T., Denver
+
+"Finally, a training that's actually TACTICAL. No fluff. Just scripts and frameworks I could use immediately."
+— Sarah K., Phoenix
+
+"My close rate went from 40% to 68% in 60 days. This course paid for itself after ONE listing."
+— Jennifer L., Austin
+
+Only 150 enrollment spots available (keeping it small for the monthly Q&A calls).
+
+Current enrollment: 73/150
+
+Next availability: 4 months from now
+
+[BUTTON: Enroll Now for $397]
+
+To your listing success,
+[Coach Name]
+
+P.S. Remember: ONE extra listing at $8K commission = 20X return on this $397 investment. The question isn't "can I afford this?" It's "can I afford NOT to fix my listing presentation?"
+
+---
+
+EMAIL 5: "Final call (bonuses disappear tonight)" (Day 5, 6pm)
+
+SUBJECT: Bonuses disappear at midnight (last call)
+PREVIEW: Early bird pricing + $274 in bonuses end in 6 hours
+
+[First Name],
+
+This is it.
+
+Early bird pricing for Listing Presentation Mastery ends at midnight tonight.
+
+After 11:59pm PT:
+→ Price increases from $397 to $497
+→ The 3 bonuses worth $274 disappear
+→ Next enrollment isn't for 4 months
+
+That's a $374 difference.
+
+Here's the question:
+
+Is learning how to win 7 out of 10 listings worth $397?
+
+Because if you close just ONE extra listing this year using what you learn, you'll 20X your investment.
+
+If you close TWO extra listings? You'll 40X it.
+
+And if you become the agent who consistently wins listings while your competitors struggle?
+
+Priceless.
+
+38 spots left. 6 hours until price increase.
+
+[BUTTON: Enroll for $397 (Before Midnight)]
+
+Still on the fence? Remember the guarantee:
+
+Use the system on 3 appointments. If you don't win at least ONE listing you wouldn't have otherwise, I'll refund you + give you $50.
+
+You literally cannot lose here.
+
+The only risk is staying where you are—losing listings to agents who aren't as good as you.
+
+Decision time.
+
+[Coach Name]
+
+P.S. "I almost didn't buy this because of the price. Best $397 I ever spent. Closed 3 listings in 45 days using the exact scripts. My only regret is not buying sooner." — David P., Seattle`
+    },
+    {
+      id: 3,
+      title: "Lead Magnet Ecosystem: Guide + Landing Page + Nurture",
+      type: "Complete Lead Gen System",
+      icon: <TrendingUp className="w-5 h-5" />,
+      client: "Spec Project",  
+      description: "Full lead generation system: opt-in page for free guide '27 Scripts Every Realtor Needs,' 3-email welcome sequence, and transition into product ecosystem.",
+      whatIMadeStrategic: [
+        "Opt-in page promises specific, immediately usable value (not vague 'tips')",
+        "Lead magnet delivers on promise PLUS plants seeds for paid offers",
+        "Welcome sequence structured: deliver → teach → introduce (not immediate pitch)",
+        "Each email includes subtle CTA to paid products without being pushy",
+        "Designed to segment buyers (clickers) from browsers for future campaigns"
+      ],
+      copyTechniques: [
+        "Headline formula: Number + specific benefit + objection removal",
+        "Benefit bullets show OUTCOMES not features ('What to say when...' not 'Scripts for...')",
+        "Social proof number creates bandwagon effect on cold traffic",
+        "Email 1 focuses on quick win (use one script today)",
+        "Email 3 introduces paid offer naturally through pain point storytelling"
+      ],
+      whyThisWorks: "This builds a relationship before asking for money. The free guide delivers massive value, which creates reciprocity. The nurture sequence positions the coach as the expert while identifying which subscribers are ready to buy.",
+      metricsDesignedFor: "45-55% opt-in conversion (cold traffic), 60% open rates on emails, 15-20% click rates, 2-3% purchase within 30 days",
+      sampleCopy: `OPT-IN LANDING PAGE:
+
+HEADLINE:
+Get 27 Proven Scripts Every Realtor Needs  
+(For Listings, Objections, and Follow-Ups That Actually Work)
+
+SUB-HEADLINE:
+Word-for-word scripts that 4,200+ agents use daily to handle commission objections, win listings, and convert more prospects—without sounding scripted or salesy
+
+[PREVIEW IMAGE: Guide pages displayed on tablet]
+
+---
+
+HERE'S EXACTLY WHAT YOU'RE GETTING (100% FREE):
+
+✓ The "Commission Justification" script that stops price objections cold (without defending or sounding desperate)
+
+✓ 7 different opening lines for listing presentations (choose based on seller personality type)
+
+✓ What to say when they ask "what makes you different from other agents?" (the answer that positions you as premium)
+
+✓ The "FSBO conversion" script for sellers considering selling themselves
+
+✓ Follow-up scripts for "we need to think about it" (most agents blow this completely)
+
+✓ Cold-call scripts that actually work (without being pushy or annoying)
+
+✓ Objection handling for the 12 most common pushbacks realtors face
+
+✓ BONUS: The "referral request" script that gets past clients sending you business consistently
+
+---
+
+[SOCIAL PROOF BANNER]
+"4,247 agents downloaded this last month"  
+⭐⭐⭐⭐⭐ Rated 4.8/5 by 1,203 users
+
+---
+
+WHY THESE SCRIPTS WORK:
+
+Most "real estate scripts" sound robotic and fake.
+
+These are different.
+
+They're based on psychology and natural conversation patterns. They sound like YOU, just more strategic.
+
+You'll learn:
+→ How to handle commission objections without dropping your rate
+→ What to say when sellers say "we're interviewing 3 other agents"  
+→ The exact words top producers use to pre-frame listing appointments
+→ How to ask for referrals without feeling awkward or salesy
+→ The follow-up language that converts 30% of "maybes" into clients
+
+These scripts have been tested by thousands of agents across every market type: hot markets, cold markets, competitive markets, slow markets.
+
+They work because they're built on what actually makes sellers say yes.
+
+---
+
+[SIMPLE OPT-IN FORM]
+
+Enter your email to download the scripts:
+
+[EMAIL FIELD]
+[BUTTON: "Send Me the Scripts (Free)"]
+
+No credit card. No spam. Unsubscribe anytime.
+
+---
+
+[TRUST ELEMENTS]
+
+🔒 Your email is safe. I hate spam as much as you do.
+
+📧 You'll also get my weekly "Script Letter" with new scripts, tactics, and seller psychology insights. (Unsubscribe anytime.)
+
+💬 "These scripts helped me close a $47K listing I would've lost. The commission objection script is absolute gold."  
+— Marcus C., Denver realtor
+
+---
+
+[ABOUT THE CREATOR]
+
+[Small headshot]
+
+Created by [Coach Name], former top 2% producing agent and creator of Elite Listing Mastery. Featured in Inman, REW, and the podcast "Seven Figure Agent."
+
+---
+
+[FINAL CTA]
+
+Stop winging your conversations with sellers.
+
+Enter your email above and I'll send you all 27 scripts in the next 60 seconds.
+
+See you inside,
+[Signature]
+
+---
+
+EMAIL 1: "Your scripts are ready" (Sent immediately)
+
+SUBJECT: Your 27 scripts are ready (download here)
+PREVIEW: Plus: watch me use script #7 in a real appointment
+
+Hey [First Name],
+
+Thanks for grabbing the 27 Scripts guide!
+
+Here's your download:  
+[BUTTON: Download Your Scripts (PDF)]
+
+Quick tip for getting the most out of this:
+
+Don't just read them and file them away.
+
+PICK ONE SCRIPT. Memorize it. Use it TODAY.
+
+If I had to recommend just one to start with, it's Script #7: The Commission Justification Response.
+
+This single script has saved more deals than any other. Here's why:
+
+When a seller says "your commission seems high," most agents panic and start defending themselves.
+
+This script completely reframes the conversation so price becomes irrelevant.
+
+I actually recorded myself using this exact script in a real listing appointment last month.
+
+Want to watch it?  
+[LINK: See Script #7 in Action (4-min video)]
+
+Try it on your next appointment and let me know how it goes.
+
+Tomorrow I'm going to send you my #1 most-requested script that didn't make it into the guide (it's too controversial for most agents to use).
+
+Talk soon,
+[Coach Name]
+
+P.S. Quick question: what's the #1 objection you hear most often from sellers? Hit reply and let me know—I might turn it into a future script.
+
+---
+
+EMAIL 2: "The script most agents won't use" (Sent Day 2, 10am)
+
+SUBJECT: The script most agents are too scared to use
+PREVIEW: (But it works better than anything else)
+
+[First Name],
+
+Yesterday I sent you the 27 Scripts guide.
+
+Today I want to share the script I left OUT of the guide.
+
+Why did I leave it out?
+
+Because it's controversial. It makes agents uncomfortable. And most won't use it even though it works incredibly well.
+
+I call it: "The Honesty Bomb"
+
+Here's how it works:
+
+You're on a listing appointment. You can sense the seller is skeptical, guarded, comparing you to other agents.
+
+Most agents try to "sell harder." They talk more about their marketing, their credentials, their track record.
+
+Bad move.
+
+Instead, you say this:
+
+"Can I be honest with you? You're probably interviewing 2-3 other agents. And we're all going to tell you similar things: we'll market your home, we'll get you top dollar, we'll work hard for you. Right?"
+
+[Pause. They nod.]
+
+"So here's what I'd recommend: Don't choose an agent based on who has the best pitch. Choose based on who you actually TRUST. Because when things get hard during this sale—and they will—trust is the only thing that matters. So my question is: do you trust me?"
+
+[Pause. Let them sit with it.]
+
+Now you're not competing on marketing or credentials.
+
+You're competing on gut feeling. And if you've built rapport up to this point, you win.
+
+Why does this work?
+
+1. It's disarmingly honest (breaks the "salesy agent" pattern)
+2. It reframes the criteria from logical to emotional  
+3. It forces them to consciously evaluate how they FEEL about you
+4. It positions you as confident (you're not afraid to be direct)
+
+The first time I used this, I was terrified.
+
+The seller sat there for 10 seconds (felt like 10 minutes) and then said:
+
+"You know what? I do trust you. Let's do this."
+
+Signed the listing that afternoon.
+
+Now, I'm not saying you should use this on every appointment.
+
+But when you sense the seller is overthinking, over-comparing, stuck in "analysis paralysis"?
+
+This script cuts through all of it.
+
+Try it. Let me know what happens.
+
+Tomorrow: The #1 follow-up mistake that costs agents listings (and the 3-step sequence that fixes it).
+
+[Coach Name]
+
+P.S. If you want to go deeper on seller psychology and learn 16 more advanced scripts like this, check out my mini-course Listing Presentation Mastery. It's specifically designed for agents who are tired of losing listings they should win. [Link to sales page]
+
+---
+
+EMAIL 3: "Why they said 'we'll think about it'" (Sent Day 3, 9am)
+
+SUBJECT: Why they said "we'll think about it"  
+PREVIEW: (And what to do about it)
+
+[First Name],
+
+You just finished a listing appointment.
+
+You thought it went well. Good conversation. They seemed interested.
+
+Then at the end, they hit you with:
+
+"Thanks for coming by. We need to think about it. We'll let you know."
+
+Your heart sinks.
+
+You know what that means: you lost.
+
+But here's what most agents don't realize:
+
+When a seller says "we need to think about it," it doesn't mean they need more TIME.
+
+It means you didn't give them a reason to choose YOU.
+
+Let me explain.
+
+Sellers say "we'll think about it" for 3 reasons:
+
+REASON 1: You didn't differentiate yourself from other agents  
+They see you as "generic agent #2" and need to compare you to everyone else.
+
+REASON 2: You didn't handle their hidden objection  
+They have a concern they didn't voice (usually about commission, marketing, or trust).
+
+REASON 3: You didn't ask for the listing directly  
+You were afraid to "be pushy" so you left the decision unclear.
+
+Here's the good news:
+
+You can fix all 3 of these with a simple follow-up sequence.
+
+Here's what I do:
+
+STEP 1: The Same-Day Text (within 2 hours)
+"Hey [Name], thanks for having me today. I know you're considering your options. Quick question: on a scale of 1-10, how close are you to making a decision? Just want to gauge where you're at."
+
+This does two things:
+1. Keeps you top of mind
+2. Gives you intel on how serious they are
+
+STEP 2: The Next-Day Email (24 hours later)
+Subject: "One thing I forgot to mention..."
+
+Body:
+"Hi [Name],
+
+I was thinking about our conversation yesterday and realized I forgot to mention one thing that might matter to you:
+
+[Share ONE specific insight about their property or situation that shows you were paying attention]
+
+Anyway, I know you're weighing your options. If any questions come up, I'm here.
+
+[Your name]"
+
+This positions you as thoughtful (not desperate) and keeps the door open.
+
+STEP 3: The 3-Day Call (72 hours later)
+"Hi [Name], it's [Your name]. I know you're probably still weighing your options. I don't want to be pushy, but I do want to ask: is there anything holding you back from moving forward? Because if there's a concern I can address, I'd love the chance to do that."
+
+[Listen. Let them talk.]
+
+If they give you an objection, handle it directly.
+If they don't have a specific concern, you say:
+
+"Here's what I'd recommend: Let's get the paperwork signed and get your home on the market this week. If at any point in the first 30 days you're not happy with how things are going, you can fire me. Fair enough?"
+
+This removes risk and forces a decision.
+
+WHAT HAPPENS NEXT:
+
+Using this 3-step sequence, I convert about 35% of "we'll think about it" responses into signed listings.
+
+That means if you get 10 "maybes" per year, this sequence could give you 3-4 extra listings.
+
+At $8K average commission, that's $24K-$32K more income.
+
+From a simple follow-up system.
+
+Most agents never follow up at all (or they send a generic "just checking in" text that goes nowhere).
+
+Don't be most agents.
+
+Use this sequence. Win more listings.
+
+[Coach Name]
+
+P.S. This 3-step sequence is just ONE of the follow-up systems I teach in Listing Presentation Mastery. The course also includes: the pre-appointment positioning system, the psychology-based presentation framework, and 15 objection-handling scripts. If you're serious about winning more listings, check it out here: [Link]`
+    }
+  ];
+
+  const aboutMe = {
+    headline: "I Help Real Estate Coaches Turn Their Knowledge Into Revenue",
+    subheadline: "Conversion-focused copywriting for realtors who teach realtors",
+    story: `I'm a direct response copywriter specializing in the real estate education space.
+
+While I'm early in my career (no client work yet), I've spent 18+ months studying the psychology of what makes realtors buy training, the objections that stop them, and the positioning that breaks through.
+
+I've consumed hundreds of real estate coach sales pages, email sequences, and webinars. I've analyzed what works (and what doesn't). And I've reverse-engineered the patterns that consistently produce results.
+
+My approach is simple:
+
+1. **I understand your audience deeply** - Realtors are skeptical of "gurus" and tired of theory-heavy training. They want tactical, immediately usable systems that justify the investment.
+
+2. **I write for conversion, not creativity** - Every word has a job: to move the prospect closer to the sale while building trust and positioning you as the clear authority.
+
+3. **I focus on transformation, not information** - Your prospects don't want to "learn about" listing presentations. They want to WIN more listings. My copy sells the outcome, not the curriculum.`,
+    whyRealEstateCoaches: `**Why I chose to specialize in real estate coaching:**
+
+The real estate education space is unique. You're not selling to consumers—you're selling to business owners (agents) who are investing in their own growth.
+
+This means:
+- They evaluate ROI ruthlessly (your copy must show clear path to 10X+ returns)
+- They're comparison shoppers (your positioning must differentiate clearly)
+- They're time-starved (your copy must respect their time and get to the point)
+- They're skeptical (your proof must be specific, credible, and abundant)
+
+I love this challenge. Real estate coaching copy requires both empathy (understanding agent frustrations) and strategic thinking (architecting the buyer journey).
+
+Plus, the metrics are clear: more enrollments = more revenue for you = proof my copy works.`
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
+      {/* Hero Section */}
+      <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-indigo-900 text-white py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="inline-block bg-blue-700/50 backdrop-blur-sm text-blue-100 px-4 py-2 rounded-full text-sm font-medium mb-6">
+            📝 Direct Response Copywriter | Real Estate Education Specialist
+          </div>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            High-Converting Copy for<br />Real Estate Coaches
+          </h1>
+          <p className="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed max-w-3xl">
+            Sales pages, email sequences, and launch copy that turn your expertise into consistent enrollments—written by someone who understands what makes realtors actually buy training.
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <a href="#portfolio" className="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition shadow-lg">
+              See My Work
+            </a>
+            <a href="#about" className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition">
+              About Me
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Services Overview */}
+      <div className="max-w-5xl mx-auto px-6 py-16">
+        <h2 className="text-3xl font-bold text-slate-800 mb-4 text-center">What I Create for Real Estate Coaches</h2>
+        <p className="text-center text-slate-600 mb-12 text-lg max-w-2xl mx-auto">
+          Conversion-focused copy designed specifically for coaches who teach agents the art of selling
+        </p>
+        
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+            <div className="bg-blue-100 text-blue-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+              <FileText className="w-7 h-7" />
+            </div>
+            <h3 className="text-xl font-bold text-slate-800 mb-3">Sales Pages</h3>
+            <p className="text-slate-600 mb-4">Long-form pages that sell high-ticket programs ($2K-$10K) by addressing objections, building desire, and proving ROI.</p>
+            <div className="text-sm text-slate-500">
+              ✓ Course launches<br />
+              ✓ Mastermind programs<br />
+              ✓ Coaching packages
+            </div>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+            <div className="bg-green-100 text-green-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+              <Mail className="w-7 h-7" />
+            </div>
+            <h3 className="text-xl font-bold text-slate-800 mb-3">Email Sequences</h3>
+            <p className="text-slate-600 mb-4">Launch sequences, nurture campaigns, and follow-up systems that convert subscribers into buyers.</p>
+            <div className="text-sm text-slate-500">
+              ✓ Product launches (5-10 days)<br />
+              ✓ Welcome sequences<br />
+              ✓ Re-engagement campaigns
+            </div>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200 hover:shadow-md transition">
+            <div className="bg-purple-100 text-purple-600 w-14 h-14 rounded-lg flex items-center justify-center mb-4">
+              <TrendingUp className="w-7 h-7" />
+            </div>
+            <h3 className="text-xl font-bold text-slate-800 mb-3">Lead Magnets</h3>
+            <p className="text-slate-600 mb-4">Opt-in pages and nurture sequences that build your list with qualified, ready-to-buy prospects.</p>
+            <div className="text-sm text-slate-500">
+              ✓ Landing pages (40-50% conversion)<br />
+              ✓ Lead magnet copy<br />
+              ✓ Welcome automation
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Portfolio Section */}
+      <div id="portfolio" className="bg-white py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold text-slate-800 mb-4">Portfolio</h2>
+            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+              These are spec projects I created to demonstrate my understanding of real estate coach marketing and direct response copywriting principles.
+            </p>
+            <div className="mt-4 inline-block bg-amber-50 border border-amber-200 text-amber-800 px-4 py-2 rounded-lg text-sm">
+              <strong>Full transparency:</strong> I have not worked with paying clients yet. These samples show what I can deliver when we work together.
+            </div>
+          </div>
+          
+          <div className="space-y-6">
+            {projects.map((project) => (
+              <div key={project.id} className="border-2 border-slate-200 rounded-xl overflow-hidden hover:border-blue-300 hover:shadow-lg transition">
+                <button
+                  onClick={() => setExpandedProject(expandedProject === project.id ? null : project.id)}
+                  className="w-full p-8 flex items-start justify-between text-left hover:bg-slate-50 transition"
+                >
+                  <div className="flex items-start gap-6 flex-1">
+                    <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white p-4 rounded-xl mt-1 shadow-md">
+                      {project.icon}
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-start gap-3 mb-2 flex-wrap">
+                        <h3 className="text-2xl font-bold text-slate-800">{project.title}</h3>
+                        <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-medium">
+                          {project.type}
+                        </span>
+                        <span className="bg-slate-100 text-slate-600 px-3 py-1 rounded-full text-sm">
+                          {project.client}
+                        </span>
+                      </div>
+                      <p className="text-slate-600 text-lg mb-4">{project.description}</p>
+                      <div className="flex items-center gap-2 text-blue-600 font-medium">
+                        <span>{expandedProject === project.id ? 'Hide' : 'View'} strategy, copy samples & techniques</span>
+                        {expandedProject === project.id ? (
+                          <ChevronUp className="w-5 h-5" />
+                        ) : (
+                          <ChevronDown className="w-5 h-5" />
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                </button>
+                
+                {expandedProject === project.id && (
+                  <div className="px-8 pb-8 bg-gradient-to-b from-slate-50 to-white">
+                    <div className="space-y-8 border-t border-slate-200 pt-8">
+                      {/* Strategic Decisions */}
+                      <div>
+                        <h4 className="font-bold text-slate-800 mb-4 flex items-center gap-2 text-lg">
+                          <Target className="w-5 h-5 text-blue-600" />
+                          What I Made Strategic
+                        </h4>
+                        <ul className="space-y-2">
+                          {project.whatIMadeStrategic.map((point, idx) => (
+                            <li key={idx} className="flex gap-3">
+                              <span className="text-blue-600 font-bold">→</span>
+                              <span className="text-slate-700">{point}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Copy Techniques */}
+                      <div>
+                        <h4 className="font-bold text-slate-800 mb-4 flex items-center gap-2 text-lg">
+                          <Zap className="w-5 h-5 text-amber-600" />
+                          Copy Techniques Used
+                        </h4>
+                        <ul className="space-y-2">
+                          {project.copyTechniques.map((technique, idx) => (
+                            <li key={idx} className="flex gap-3">
+                              <span className="text-amber-600 font-bold">✦</span>
+                              <span className="text-slate-700">{technique}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Why This Works */}
+                      <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
+                        <h4 className="font-bold text-blue-900 mb-2 flex items-center gap-2">
+                          <Award className="w-5 h-5" />
+                          Why This Works
+                        </h4>
+                        <p className="text-blue-800">{project.whyThisWorks}</p>
+                      </div>
+
+                      {/* Metrics */}
+                      <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-r-lg">
+                        <h4 className="font-bold text-green-900 mb-2 flex items-center gap-2">
+                          <DollarSign className="w-5 h-5" />
+                          Designed Performance Metrics
+                        </h4>
+                        <p className="text-green-800">{project.metricsDesignedFor}</p>
+                      </div>
+
+                      {/* Full Copy Sample */}
+                      <div>
+                        <h4 className="font-bold text-slate-800 mb-4 flex items-center gap-2 text-lg">
+                          <BookOpen className="w-5 h-5 text-purple-600" />
+                          Full Copy Sample
+                        </h4>
+                        <div className="bg-slate-900 text-slate-100 p-6 rounded-lg overflow-x-auto">
+                          <pre className="text-sm whitespace-pre-wrap font-mono leading-relaxed">
+                            {project.sampleCopy}
+                          </pre>
+                        </div>
+                      </div>
+
+                      <div className="flex gap-4 pt-4">
+                        <button className="flex-1 bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition flex items-center justify-center gap-2">
+                          <ExternalLink className="w-4 h-4" />
+                          Request Full Copy Document
+                        </button>
+                        <button className="flex-1 border-2 border-slate-300 text-slate-700 px-6 py-3 rounded-lg font-semibold hover:bg-slate-50 transition">
+                          Discuss This Project
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* About Section */}
+      <div id="about" className="max-w-5xl mx-auto px-6 py-20">
+        <div className="bg-gradient-to-br from-slate-800 to-slate-900 text-white rounded-2xl p-12 shadow-xl">
+          <h2 className="text-4xl font-bold mb-4">{aboutMe.headline}</h2>
+          <p className="text-xl text-slate-300 mb-8">{aboutMe.subheadline}</p>
+          
+          <div className="space-y-6 text-slate-200 text-lg leading-relaxed">
+            {aboutMe.story.split('\n\n').map((paragraph, idx) => (
+              <p key={idx}>{paragraph}</p>
+            ))}
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-slate-700">
+            <h3 className="text-2xl font-bold mb-6 text-blue-300">Why Real Estate Coaching?</h3>
+            <div className="space-y-4 text-slate-200 leading-relaxed">
+              {aboutMe.whyRealEstateCoaches.split('\n\n').map((paragraph, idx) => (
+                <p key={idx}>{paragraph}</p>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* My Process */}
+      <div className="bg-slate-50 py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-4xl font-bold text-slate-800 mb-4 text-center">How I Approach Projects</h2>
+          <p className="text-center text-slate-600 mb-12 text-lg max-w-2xl mx-auto">
+            A systematic process designed to deliver copy that converts
+          </p>
+
+          <div className="grid md:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-xl shadow-sm border-t-4 border-blue-500">
+              <div className="text-3xl font-bold text-blue-600 mb-2">01</div>
+              <h3 className="font-bold text-slate-800 mb-2">Deep Research</h3>
+              <p className="text-slate-600 text-sm">I analyze your audience, competitors, and past marketing to understand what's working (and what's not).</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-sm border-t-4 border-green-500">
+              <div className="text-3xl font-bold text-green-600 mb-2">02</div>
+              <h3 className="font-bold text-slate-800 mb-2">Strategic Outline</h3>
+              <p className="text-slate-600 text-sm">I create a detailed outline showing the psychological flow, key objections to handle, and proof points needed.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-sm border-t-4 border-purple-500">
+              <div className="text-3xl font-bold text-purple-600 mb-2">03</div>
+              <h3 className="font-bold text-slate-800 mb-2">First Draft</h3>
+              <p className="text-slate-600 text-sm">I write conversion-focused copy based on proven direct response principles and real estate education psychology.</p>
+            </div>
+
+            <div className="bg-white p-6 rounded-xl shadow-sm border-t-4 border-amber-500">
+              <div className="text-3xl font-bold text-amber-600 mb-2">04</div>
+              <h3 className="font-bold text-slate-800 mb-2">Refinement</h3>
+              <p className="text-slate-600 text-sm">I incorporate your feedback and refine until the copy feels authentically YOU while maximizing conversion potential.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* What You Get */}
+      <div className="max-w-5xl mx-auto px-6 py-20">
+        <h2 className="text-4xl font-bold text-slate-800 mb-12 text-center">What You Get When We Work Together</h2>
+        
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+            <h3 className="text-xl font-bold text-slate-800 mb-4 flex items-center gap-2">
+              <Users className="w-6 h-6 text-blue-600" />
+              Audience Understanding
+            </h3>
+            <p className="text-slate-600 mb-4">I don't just write words—I research your specific audience's pain points, objections, and buying triggers.</p>
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li className="flex gap-2"><span className="text-blue-600">✓</span> Forum/community research</li>
+              <li className="flex gap-2"><span className="text-blue-600">✓</span> Competitor analysis</li>
+              <li className="flex gap-2"><span className="text-blue-600">✓</span> Voice-of-customer mining</li>
+            </ul>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+            <h3 className="text-xl font-bold text-slate-800 mb-4 flex items-center gap-2">
+              <Target className="w-6 h-6 text-green-600" />
+              Strategic Thinking
+            </h3>
+            <p className="text-slate-600 mb-4">Every project includes strategic recommendations on positioning, offer structure, and conversion optimization.</p>
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li className="flex gap-2"><span className="text-green-600">✓</span> Psychological flow mapping</li>
+              <li className="flex gap-2"><span className="text-green-600">✓</span> Objection handling strategy</li>
+              <li className="flex gap-2"><span className="text-green-600">✓</span> CTA optimization</li>
+            </ul>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+            <h3 className="text-xl font-bold text-slate-800 mb-4 flex items-center gap-2">
+              <Zap className="w-6 h-6 text-purple-600" />
+              Fast Turnaround
+            </h3>
+            <p className="text-slate-600 mb-4">I respect your launch deadlines. Most projects delivered within 7-14 days depending on scope.</p>
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li className="flex gap-2"><span className="text-purple-600">✓</span> Clear timelines upfront</li>
+              <li className="flex gap-2"><span className="text-purple-600">✓</span> Regular progress updates</li>
+              <li className="flex gap-2"><span className="text-purple-600">✓</span> Rush options available</li>
+            </ul>
+          </div>
+
+          <div className="bg-white p-8 rounded-xl shadow-sm border border-slate-200">
+            <h3 className="text-xl font-bold text-slate-800 mb-4 flex items-center gap-2">
+              <Award className="w-6 h-6 text-amber-600" />
+              Revision-Friendly
+            </h3>
+            <p className="text-slate-600 mb-4">Your feedback makes the copy better. Two rounds of revisions included to ensure you're 100% satisfied.</p>
+            <ul className="space-y-2 text-sm text-slate-600">
+              <li className="flex gap-2"><span className="text-amber-600">✓</span> Collaborative process</li>
+              <li className="flex gap-2"><span className="text-amber-600">✓</span> Open communication</li>
+              <li className="flex gap-2"><span className="text-amber-600">✓</span> Final polish included</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      {/* CTA Section */}
+      <div className="bg-gradient-to-r from-blue-600 to-indigo-600 py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center text-white">
+          <h2 className="text-4xl font-bold mb-6">Ready to Fill Your Next Launch?</h2>
+          <p className="text-xl mb-8 text-blue-100">
+            Let's talk about your upcoming program launch, email sequence, or sales page project.<br />
+            I'll show you exactly how I'd approach your specific situation.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+            <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition shadow-xl">
+              Schedule a Free Consultation
+            </button>
+            <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white/10 transition">
+              Email: yourname@email.com
+            </button>
+          </div>
+          <p className="text-blue-200 text-sm">
+            📞 Available for calls Mon-Fri, 9am-5pm PT | Usually respond within 24 hours
+          </p>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <div className="bg-slate-900 text-slate-400 py-12 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div>
+              <h3 className="text-white font-bold mb-3">Services</h3>
+              <ul className="space-y-2 text-sm">
+                <li>Sales Pages</li>
+                <li>Email Sequences</li>
+                <li>Lead Magnets</li>
+                <li>VSL Scripts</li>
+                <li>Webinar Copy</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-white font-bold mb-3">Industries</h3>
+              <ul className="space-y-2 text-sm">
+                <li>Real Estate Coaching</li>
+                <li>Agent Training Programs</li>
+                <li>Listing Mastery Courses</li>
+                <li>Lead Generation Training</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-white font-bold mb-3">Contact</h3>
+              <ul className="space-y-2 text-sm">
+                <li>Email: yourname@email.com</li>
+                <li>LinkedIn: /in/yourprofile</li>
+                <li>Schedule: calendly.com/yourlink</li>
+              </ul>
+            </div>
+          </div>
+          <div className="border-t border-slate-700 pt-8 text-center text-sm">
+            <p>© 2024 Your Name - Copywriter for Real Estate Educators</p>
+            <p className="mt-2 text-slate-500">Specializing in conversion-focused copy for coaches who teach realtors the art of selling</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Portfolio;
